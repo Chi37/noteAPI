@@ -1,0 +1,28 @@
+{
+  "name": "noteapi",
+  "version": "1.0.0",
+  "description": "A note application using nodejs, express and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chi37/noteAPI.git"
+  },
+  "author": "Chi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chi37/noteAPI/issues"
+  },
+  "homepage": "https://github.com/Chi37/noteAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
